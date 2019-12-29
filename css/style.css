@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  /* background: no-repeat center center fixed; */
+  /* background: #76a6ff; */
+  background-size: cover;
+  /* animation-name: bg;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in; */
+}
+
+.container {
+  color: black;
+}
+
+.header{
+  text-align: center;
+  padding-top: 40px; 
+}
+
+.prof-pic{
+  padding: 10px;
+  /* float: left; */
+  height: 250px;
+}
+.info{
+  /* float: left; */
+}
+
+.label{
+  text-align: left
+}
+
+@keyframes bg {
+  0% {background-color: #7eabff;}   /* Light Purple*/
+  10% {background-color: #6f8aff;}  /* Light Pink */
+  20% {background-color: #a182e7;} /* Light Red */
+  30% {background-color: #6c4d8f;}  /* Orange */
+  40% {background-color: #f78b9d;}  /* Brown */
+  50% {background-color: #df9877;}  /* Light Green*/
+  60% {background-color: #ddd086;}  /* Cyan */
+  70% {background-color: #90c77b;}  /* Light Blue */
+  80% {background-color: #91d396;}  /* Blue */
+  90% {background-color: #4fc5ce;}  /*Light Purple*/
+  100% {background-color: #7eabff;}
+}
